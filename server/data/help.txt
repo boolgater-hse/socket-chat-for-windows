@@ -1,5 +1,5 @@
 
-/friendlist          /fl    - to see your friends
+/friendlist          /fl   - to see your friends
 /friend [nickname]   /f    - to send a friend request
 /remove [nickname]   /rm   - to remove your friend
 /roomlist            /rl   - to see all available rooms
