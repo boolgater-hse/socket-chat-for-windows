@@ -1,5 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include "funcs.h"
+#include <direct.h>
 #define SIZE 1000
 
 char** ReadData(const char* input_name, int* rows)
@@ -52,4 +53,18 @@ char* ReadHistory(const char* name)
 		strcat(history, "-------------\n");
 
 	return history;
+}
+
+void MakeFiles()
+{
+	_mkdir("data");
+	_mkdir("data\\chats");
+	FILE* one = fopen("data\\clientbase.txt", "ab+");
+	FILE* two = fopen("data\\help.txt", "ab+");
+	fputs("\n/friendlist          /fl   - to see your friends\n/friend [nickname]   /f    - to send a friend request\n/remove [nickname]   /rm   - to remove your friend\n/roomlist            /rl   - to see all available rooms\n/go [room_name]            - to connect to the room\n/create [room_name]  /cr   - to create new room\n/invite [nickname]   /inv  - to invite friend to the room\n/quit                /q    - to go offline\n", two);
+	FILE* three = fopen("data\\chats\\main.txt", "ab+");
+	fclose(one);
+	fclose(two);
+	fclose(three);
+	return;
 }

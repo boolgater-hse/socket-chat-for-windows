@@ -30,3 +30,4 @@ char** ReadData(const char* input_name, int* rows);
 void AddData(char** data, const char* str, int* rows);
 void WriteData(const char* output_name, int rows, char** data);
 char* ReadHistory(const char* name);
+void MakeFiles();

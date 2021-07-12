@@ -483,6 +483,8 @@ int CreateServer(int port)
 
 int main(int argc, char* argv[])
 {
+	MakeFiles();
+
 	WSADATA wsd;
 	if (WSAStartup(MAKEWORD(1, 1), &wsd) == 0)
 	{
