@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <winsock.h>
-#define MAX_CLIENTS 11
+#define MAX_CLIENTS 10
 
 typedef struct chat
 {

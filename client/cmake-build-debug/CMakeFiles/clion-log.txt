@@ -1,0 +1,4 @@
+E:\JetBrains\apps\CLion\ch-0\211.7628.27\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\bool\Desktop\chat\client
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/bool/Desktop/chat/client/cmake-build-debug

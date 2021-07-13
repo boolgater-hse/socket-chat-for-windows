@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/bool/Desktop/chat/client/src/client.cpp
+pthread.h
+-
+winsock.h
+-
+stdio.h
+-
+time.h
+-
+stdlib.h
+-
+
