@@ -1,3 +1,0 @@
-E:\JetBrains\apps\CLion\ch-0\211.7628.27\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\client.dir/objects.a
-C:\msys64\mingw64\bin\ar.exe cr CMakeFiles\client.dir/objects.a @CMakeFiles\client.dir\objects1.rsp
-C:\msys64\mingw64\bin\g++.exe -pthread -g -Wl,--whole-archive CMakeFiles\client.dir/objects.a -Wl,--no-whole-archive -o client.exe -Wl,--out-implib,libclient.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\client.dir\linklibs.rsp

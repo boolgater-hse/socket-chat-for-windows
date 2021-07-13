@@ -1,6 +1,0 @@
-bool: hey
-Delivered on (16:14, 13.07.2021)
-
-hey: hey
-Delivered on (16:14, 13.07.2021)
-

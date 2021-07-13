@@ -1,9 +1,0 @@
-
-/friendlist          /fl   - to see your friends
-/friend [nickname]   /f    - to send a friend request
-/remove [nickname]   /rm   - to remove your friend
-/roomlist            /rl   - to see all available rooms
-/go [room_name]            - to connect to the room
-/create [room_name]  /cr   - to create new room
-/invite [nickname]   /inv  - to invite friend to the room
-/quit                /q    - to go offline
